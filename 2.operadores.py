@@ -1,0 +1,45 @@
+#Operadores en python
+
+#1. Operadores Aritmeticos
+suma = 5 + 5
+resta = 10 - 6
+multiplicacion = 5 * 5
+division = 10 / 2
+modulo = 10 % 2
+exponente = 10 ** 2
+
+
+print ('El resultado de la suma es: ',suma)
+print ('El resultado de la resta es: ',resta)
+print ('El resultado de la multiplicacion es: ',multiplicacion)
+print ('El resultado de la division es: ',division)
+print ('El resultado de la modulo es: ',modulo)
+print ('El resultado de la exponente es: ',exponente)
+
+#2. Operadores de comparacion
+print( 5 == 5 )    #Igual a
+print( 5 != 5 )    #Diferente de 
+print( 10 > 5 )    #Mayor que
+print( 10 < 5 )    #Menor que
+print( 10 >= 5 )   #Mayor o igual que
+print( 10 <=5 )    #Menor o igual que
+
+#3.Operadores logicos
+v = True
+f = False
+ #3.1. and (y)
+print('-----------------------------------AND')
+print(v and v)
+print(v and f)
+print(f and v)
+print(f and f)
+ #3.2. or (o)
+print('-----------------------------------OR')
+print(v or v)
+print(v or f)
+print(f or v)
+print(f or f)
+ #3.3. not (negacion)
+print('-----------------------------------NOT')
+print(not v)
+print(not f)
